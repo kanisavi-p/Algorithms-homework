@@ -5,7 +5,7 @@ using namespace std;
 
 const double pi = 3.14159;    // Задаём константу - число Пи
 
-int main21() {
+int main() {
     setlocale(0, "Rus");    // Русский язык в консоли
 
     cout << "Задача № 1. Математический маятник\n\n";
