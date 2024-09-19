@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 
-    setlocale(0, "Rus");
+    setlocale(0, "Rus");    // Русский язык в консоли
 
     double tax, s;
     char cover, material;
@@ -24,7 +24,7 @@ int main() {
     tax += 1000 * s;
 
     // Определяем коэффициент умножения налога в зависимости от материала
-    cout << "Материал (1 - high quality/ 2 - adobe/ 3 - other) : ";
+    cout << "Материал (1 - высокое качество/ 2 - саман/ 3 - другой) : ";
     cin >> material;
     if (material == '1')
         tax *= 1.15;
