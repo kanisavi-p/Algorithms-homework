@@ -21,8 +21,10 @@ int main() {
         cin >> V;
         if (V <= 0 || H <= 0)
             cout << "Введено недопустимое значение (<= 0).\n";
+        else
+            break;
 
-    } while (H <= 0 || V <= 0);
+    } while (true);
     cout << "Введите значение alpha: ";
     cin >> alpha;
 
