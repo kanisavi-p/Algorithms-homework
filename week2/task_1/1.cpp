@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main1() {
+int main() {
 	int A, B, del_a, del_b, sum_del, mult_count, mult_a, sum_b, sum_mult, max_del = 1;
 
 	del_a = 0;   // кол-во делителей A
